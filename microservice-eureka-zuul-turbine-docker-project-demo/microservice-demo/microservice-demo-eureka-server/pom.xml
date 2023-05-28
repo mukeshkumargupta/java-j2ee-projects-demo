@@ -10,6 +10,10 @@
 	</parent>
 
 	<artifactId>microservice-demo-eureka-server</artifactId>
+	
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>

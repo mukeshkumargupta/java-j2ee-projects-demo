@@ -24,7 +24,7 @@
 	</modules>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>11</java.version> <!-- here in central place i can change to 8-->
 	</properties>
 
 	<dependencyManagement>

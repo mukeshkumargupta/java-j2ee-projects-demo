@@ -1,0 +1,5 @@
+com\vishaluplanch\org\vo\CollateralDetail.class
+com\vishaluplanch\org\PojoToAvroConverter.class
+com\vishaluplanch\org\vo\ApplicantDetail.class
+com\vishaluplanch\org\vo\EmploymentDetail.class
+com\vishaluplanch\org\pojo\LoanDetailPojo.class

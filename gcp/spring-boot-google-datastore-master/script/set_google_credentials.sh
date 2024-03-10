@@ -1,0 +1,1 @@
+export GOOGLE_APPLICATION_CREDENTIALS=/home/mike/IdeaProjects/influencer/springboot-google-cloud/script/mike-firebase4-c95b9665f86e.json

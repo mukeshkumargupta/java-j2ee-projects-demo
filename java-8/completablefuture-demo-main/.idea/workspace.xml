@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9e64360-107c-462e-860b-aa287d2ddec8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/classes/com/javatechie/spring/insurance/clinet/api/InsuranceClientApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/surefire-reports/2023-06-15T22-18-01_318.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/surefire-reports/TEST-com.javatechie.spring.insurance.clinet.api.InsuranceClientApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/surefire-reports/com.javatechie.spring.insurance.clinet.api.InsuranceClientApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../spring-cloud-config-master/insurance-client/target/test-classes/com/javatechie/spring/insurance/clinet/api/InsuranceClientApplicationTests.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,30 +21,53 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/apache-maven-3.8.6" />
-        <option name="usePluginRegistry" value="true" />
+        <option name="customMavenHome" value="C:/Program Files/apache-maven-3.8.6" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="workspaceImportForciblyTurnedOn" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_HOME" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2VcdyVXvkQF746G2IbaqnVtiBnS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EmployeeReminderService.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mukeshgupta/projects/java-j2ee-projects-demo/java-8/completablefuture-demo-main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="completablefuture-demo-main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="completablefuture-demo-main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

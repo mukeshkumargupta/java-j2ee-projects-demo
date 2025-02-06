@@ -1,4 +1,5 @@
-version: '3'
+version: '3.8'
+
 services:
   consul:
     image: consul:1.8.4
@@ -6,39 +7,45 @@ services:
     ports:
       - "8500:8500"
       - "8600:8600/udp"
+
   customer:
     build: ../microservice-consul-demo/microservice-consul-demo-customer
     links:
-     - consul
-     - zipkin
+      - consul
+      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
       SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+
   catalog:
     build: ../microservice-consul-demo/microservice-consul-demo-catalog
     links:
-     - consul
-     - zipkin
+      - consul
+      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
       SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+
   order:
     build: ../microservice-consul-demo/microservice-consul-demo-order
     links:
-     - consul
-     - zipkin
+      - consul
+      - zipkin
     environment:
       SPRING_ZIPKIN_ENABLED: "true"
       SPRING_ZIPKIN_BASE_URL: "http://zipkin:9411/"
+
   apache:
     build: apache
     links:
-     - consul
+      - consul
     depends_on:
-     - consul
+      - consul
     ports:
-     - "8080:80"
+      - "8080:80"
+
   zipkin:
+    platform: linux/amd64  # Specify the platform architecture
     image: openzipkin/zipkin:2.21.7
     ports:
-     - "9411:9411"
+      - "9411:9411"

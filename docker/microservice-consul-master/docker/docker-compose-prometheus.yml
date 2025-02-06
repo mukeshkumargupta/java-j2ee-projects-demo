@@ -1,4 +1,5 @@
-version: '3'
+version: '3.8'
+
 services:
   consul:
     image: consul:1.8.4
@@ -6,29 +7,35 @@ services:
     ports:
       - "8500:8500"
       - "8600:8600/udp"
+
   customer:
     build: ../microservice-consul-demo/microservice-consul-demo-customer
     links:
-     - consul
+      - consul
+
   catalog:
     build: ../microservice-consul-demo/microservice-consul-demo-catalog
     links:
-     - consul
+      - consul
+
   order:
     build: ../microservice-consul-demo/microservice-consul-demo-order
     links:
-     - consul
+      - consul
+
   apache:
     build: apache
     links:
-     - consul
+      - consul
     depends_on:
-     - consul
+      - consul
     ports:
-     - "8080:80"
+      - "8080:80"
+
   prometheus:
+    platform: linux/amd64  # Specify the platform architecture
     build: prometheus
     links:
-     - order
+      - order
     ports:
-     - "9090:9090"
+      - "9090:9090"

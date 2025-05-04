@@ -1,0 +1,27 @@
+{
+    "name": "openai-lodging-service",
+    "version": "1.0.0",
+    "description": "A lodging recommendation service for properties in San Francisco, powered by OpenAI and the PostgreSQL pgvector extension.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YugabyteDB-Samples/openai-pgvector-lodging-service.git"
+    },
+    "author": "Denis Magda",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/YugabyteDB-Samples/openai-pgvector-lodging-service/issues"
+    },
+    "homepage": "https://github.com/YugabyteDB-Samples/openai-pgvector-lodging-service#readme",
+    "dependencies": {
+        "create-react-app": "^5.0.1",
+        "express": "^4.18.2",
+        "openai": "^4.8.0",
+        "pg": "^8.11.3",
+        "properties-reader": "^2.3.0"
+    }
+}
